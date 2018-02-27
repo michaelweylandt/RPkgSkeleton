@@ -1,0 +1,25 @@
+---
+title: "Introduction to the PKG Package"
+author: "Michael Weylandt"
+date: "`r Sys.Date()`"
+output: html_vignette
+bibliography: vignettes.bibtex
+vignette: >
+  %\VignetteIndexEntry{Introduction to the PKG Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r echo=FALSE,cache=FALSE}
+set.seed(1234)
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+TEXT GOES HERE
+
+`PKG` uses the `Rcpp` and `RcppArmadillo` libraries for speed
+[@Eddelbuettel:2011; @Eddelbuettel:2014; @Sanderson:2016]. 
+
+## References
+
+

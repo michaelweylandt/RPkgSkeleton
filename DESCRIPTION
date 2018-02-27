@@ -1,0 +1,20 @@
+Package: PKG
+Title: TEXT HERE
+Version: 0.1
+Date: DATE HERE
+Authors@R: c(
+    person("Michael", "Weylandt", email="michael.weylandt@rice.edu", role=c("aut", "cre")),
+    )
+Description: TEXT HERE
+License: GPL (>= 2)
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat,
+    covr,
+    devtools
+LinkingTo: Rcpp (>= 0.12.0), RcppArmadillo (>= 0.8.300.1.0)
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
+URL: https://github.com/michaelweylandt/PKG
+BugReports: https://github.com/michaelweylandt/PKG/issues
